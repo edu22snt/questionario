@@ -681,128 +681,64 @@ public class QuestionarioView extends JFrame {
         return ckTopico1 == null ? ckTopico1 = new JCheckBox() : ckTopico1;
     }
 
-    public void setCkTopico1(JCheckBox ckTopico1) {
-        this.ckTopico1 = ckTopico1;
-    }
-
     public JCheckBox getCkTopico2() {
         return ckTopico2 == null ? ckTopico2 = new JCheckBox() : ckTopico2;
-    }
-
-    public void setCkTopico2(JCheckBox ckTopico2) {
-        this.ckTopico2 = ckTopico2;
     }
 
     public JCheckBox getCkTopico3() {
         return ckTopico3 == null ? ckTopico3 = new JCheckBox() : ckTopico3;
     }
 
-    public void setCkTopico3(JCheckBox ckTopico3) {
-        this.ckTopico3 = ckTopico3;
-    }
-
     public JCheckBox getCkTopico4() {
         return ckTopico4 == null ? ckTopico4 = new JCheckBox() : ckTopico4;
-    }
-
-    public void setCkTopico4(JCheckBox ckTopico4) {
-        this.ckTopico4 = ckTopico4;
     }
 
     public JCheckBox getCkTopico5() {
         return ckTopico5 == null ? ckTopico5 = new JCheckBox() : ckTopico5;
     }
 
-    public void setCkTopico5(JCheckBox ckTopico5) {
-        this.ckTopico5 = ckTopico5;
-    }
-
     public JCheckBox getCkTopico6() {
         return ckTopico6 == null ? ckTopico6 = new JCheckBox() : ckTopico6;
-    }
-
-    public void setCkTopico6(JCheckBox ckTopico6) {
-        this.ckTopico6 = ckTopico6;
     }
 
     public JCheckBox getCkTopico7() {
         return ckTopico7 == null ? ckTopico7 = new JCheckBox() : ckTopico7;
     }
 
-    public void setCkTopico7(JCheckBox ckTopico7) {
-        this.ckTopico7 = ckTopico7;
-    }
-
     public JCheckBox getCkTopico8() {
         return ckTopico8 == null ? ckTopico8 = new JCheckBox() : ckTopico8;
-    }
-
-    public void setCkTopico8(JCheckBox ckTopico8) {
-        this.ckTopico8 = ckTopico8;
     }
 
     public JCheckBox getCkTopico9() {
         return ckTopico9 == null ? ckTopico9 = new JCheckBox() : ckTopico9;
     }
 
-    public void setCkTopico9(JCheckBox ckTopico9) {
-        this.ckTopico9 = ckTopico9;
-    }
-
     public JCheckBox getCkTopico10() {
         return ckTopico10 == null ? ckTopico10 = new JCheckBox() : ckTopico10;
-    }
-
-    public void setCkTopico10(JCheckBox ckTopico10) {
-        this.ckTopico10 = ckTopico10;
     }
 
     public JCheckBox getCkTopico11() {
         return ckTopico11 == null ? ckTopico11 = new JCheckBox() : ckTopico11;
     }
 
-    public void setCkTopico11(JCheckBox ckTopico11) {
-        this.ckTopico11 = ckTopico11;
-    }
-
     public JCheckBox getCkTopico12() {
         return ckTopico12 == null ? ckTopico12 = new JCheckBox() : ckTopico12;
-    }
-
-    public void setCkTopico12(JCheckBox ckTopico12) {
-        this.ckTopico12 = ckTopico12;
     }
 
     public JCheckBox getCkTopico13() {
         return ckTopico13 == null ? ckTopico13 = new JCheckBox() : ckTopico13;
     }
 
-    public void setCkTopico13(JCheckBox ckTopico13) {
-        this.ckTopico13 = ckTopico13;
-    }
-
     public JCheckBox getCkTopico14() {
         return ckTopico14 == null ? ckTopico14 = new JCheckBox() : ckTopico14;
-    }
-
-    public void setCkTopico14(JCheckBox ckTopico14) {
-        this.ckTopico14 = ckTopico14;
     }
 
     public JCheckBox getCkTopico15() {
         return ckTopico15 == null ? ckTopico15 = new JCheckBox() : ckTopico15;
     }
 
-    public void setCkTopico15(JCheckBox ckTopico15) {
-        this.ckTopico15 = ckTopico15;
-    }
-
     public JCheckBox getCkTopico16() {
         return ckTopico16 == null ? ckTopico16 = new JCheckBox() : ckTopico16;
-    }
-
-    public void setCkTopico16(JCheckBox ckTopico16) {
-        this.ckTopico16 = ckTopico16;
     }
 
 }
