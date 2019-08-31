@@ -8,7 +8,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
-import controle.Perguntas;
 import enums.EnumPerguntaTopico1;
 import enums.EnumSistema;
 import enums.EnumTopico;
@@ -26,7 +25,6 @@ public class PerguntasTopico1View extends JFrame {
     
     private JPanel jContentPane = null;
     private JButton btnFinalizar = null;
-    private JButton btnVoltar = null;
     
     private JRadioButton radioPergunta1 = null;
     private JRadioButton radioPergunta2 = null;
@@ -50,8 +48,6 @@ public class PerguntasTopico1View extends JFrame {
         this.setContentPane(getJContentPane());
         this.setTitle(EnumTopico.TOPICO1.getDescricao());
         adicionarComponentesNoLayout();
-//        acaoCheckbox();
-//        acaoComponentes();
         definirNomeComponente();
         definirTamanhoComponentes();
     }
@@ -66,7 +62,7 @@ public class PerguntasTopico1View extends JFrame {
     
     //TODO: RECUPERAR DEPOIS A LISTA DA CLASSE DE PERGUNTAS
     private void definirNomeComponente() {
-        radioPergunta1.setText(EnumPerguntaTopico1.PERGUNTA2.getDescricao());
+        radioPergunta1.setText(EnumPerguntaTopico1.PERGUNTA1.getDescricao());
         radioPergunta2.setText(EnumPerguntaTopico1.PERGUNTA2.getDescricao());
         radioPergunta3.setText(EnumPerguntaTopico1.PERGUNTA3.getDescricao());
         radioPergunta4.setText(EnumPerguntaTopico1.PERGUNTA4.getDescricao());
@@ -77,7 +73,6 @@ public class PerguntasTopico1View extends JFrame {
         radioPergunta9.setText(EnumPerguntaTopico1.PERGUNTA9.getDescricao());
         radioPergunta10.setText(EnumPerguntaTopico1.PERGUNTA10.getDescricao());
 
-        btnVoltar.setText(EnumSistema.NM_BOTAO_VOLTAR.getDescricao());
         btnFinalizar.setText(EnumSistema.NM_BOTA0_FINALIZAR.getDescricao());
     }
     
@@ -93,8 +88,7 @@ public class PerguntasTopico1View extends JFrame {
         radioPergunta9.setBounds(new Rectangle(20, 250, 300, 25));
         radioPergunta10.setBounds(new Rectangle(20, 280, 300, 25));
         
-        btnVoltar.setBounds(new Rectangle(550, 650, 110, 25));
-        btnFinalizar.setBounds(new Rectangle(680, 650, 110, 25));
+        btnFinalizar.setBounds(new Rectangle(1200, 650, 110, 25));
     }
     
     private void adicionarComponentesNoLayout() {
@@ -109,55 +103,50 @@ public class PerguntasTopico1View extends JFrame {
         jContentPane.add(getRadioPergunta9(), null);
         jContentPane.add(getRadioPergunta10(), null);
         jContentPane.add(getBtnFinalizar(), null);
-        jContentPane.add(getBtnVoltar(), null);
     }
 
     public JButton getBtnFinalizar() {
-        return btnFinalizar;
-    }
-
-    public JButton getBtnVoltar() {
-        return btnVoltar;
+        return btnFinalizar == null ? btnFinalizar = new JButton() : btnFinalizar;
     }
 
     public JRadioButton getRadioPergunta1() {
-        return radioPergunta1;
+        return radioPergunta1 == null ? radioPergunta1 = new JRadioButton() : radioPergunta1;
     }
 
     public JRadioButton getRadioPergunta2() {
-        return radioPergunta2;
+        return radioPergunta2 == null ? radioPergunta2 = new JRadioButton() : radioPergunta2;
     }
 
     public JRadioButton getRadioPergunta3() {
-        return radioPergunta3;
+        return radioPergunta3 == null ? radioPergunta3 = new JRadioButton() : radioPergunta3;
     }
 
     public JRadioButton getRadioPergunta4() {
-        return radioPergunta4;
+        return radioPergunta4 == null ? radioPergunta4 = new JRadioButton() : radioPergunta4;
     }
 
     public JRadioButton getRadioPergunta5() {
-        return radioPergunta5;
+        return radioPergunta5 == null ? radioPergunta5 = new JRadioButton() : radioPergunta5;
     }
 
     public JRadioButton getRadioPergunta6() {
-        return radioPergunta6;
+        return radioPergunta6 == null ? radioPergunta6 = new JRadioButton() : radioPergunta6;
     }
 
     public JRadioButton getRadioPergunta7() {
-        return radioPergunta7;
+        return radioPergunta7 == null ? radioPergunta7 = new JRadioButton() : radioPergunta7;
     }
 
     public JRadioButton getRadioPergunta8() {
-        return radioPergunta8;
+        return radioPergunta8 == null ? radioPergunta8 = new JRadioButton() : radioPergunta8;
     }
 
     public JRadioButton getRadioPergunta9() {
-        return radioPergunta9;
+        return radioPergunta9 == null ? radioPergunta9 = new JRadioButton() : radioPergunta9;
     }
 
     public JRadioButton getRadioPergunta10() {
-        return radioPergunta10;
+        return radioPergunta10 == null ? radioPergunta10 = new JRadioButton() : radioPergunta10;
     }
 
 }

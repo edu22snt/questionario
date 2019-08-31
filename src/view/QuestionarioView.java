@@ -12,7 +12,6 @@ import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import controle.Questionario;
 import enums.EnumSistema;
 import enums.EnumTopico;
 
@@ -457,11 +456,12 @@ public class QuestionarioView extends JFrame {
 	    btnOk.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				Questionario q = new Questionario();
+                /* Questionario q = new Questionario(); */
 
 				if(ckTopico1.isSelected()) {
-//					loterias.sortearNumerosMegaSena();
-//					txtNumerosSorteadosMegaSena.setText(loterias.getNumerosSorteados());
+	                PerguntasTopico1View thisClass = new PerguntasTopico1View();
+	                thisClass.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	                thisClass.setVisible(true);
 				} else if(ckTopico2.isSelected()) {
 
 				} else if(ckTopico3.isSelected()) {
@@ -630,8 +630,8 @@ public class QuestionarioView extends JFrame {
         ckTopico15.setBounds(new Rectangle(20, 430, 300, 25));
         ckTopico16.setBounds(new Rectangle(20, 460, 300, 25));
         
-		btnFechar.setBounds(new Rectangle(550, 650, 110, 25));
-		btnOk.setBounds(new Rectangle(680, 650, 110, 25));
+		btnFechar.setBounds(new Rectangle(1080, 650, 110, 25));
+		btnOk.setBounds(new Rectangle(1200, 650, 110, 25));
 	}
 
 	private void adicionarComponentesNoLayout() {
